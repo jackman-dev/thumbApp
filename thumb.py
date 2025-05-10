@@ -54,7 +54,7 @@ def resize_and_pad(image_path, output_path, crop_size, final_width, final_height
             blended = ImageChops.multiply(background_crop, img)
             new_img.paste(blended, (paste_x, paste_y))
 
-            new_img.save(output_path, OUTPUT_FORMAT, quality=95, subsampling=0)
+            new_img.save(output_path, OUTPUT_FORMAT, quality=100, subsampling=0)
             print(f"✅ 변환 완료: {output_path}")
 
     except Exception as e:

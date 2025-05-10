@@ -8,6 +8,7 @@ dist/
 *.spec
 *.dmg
 *.app
+*.zip
 
 # macOS 시스템 파일
 .DS_Store
